@@ -3,7 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/scinitializer/scinitializer.iml" filepath="$PROJECT_DIR$/scinitializer/scinitializer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/scinitializer/scinitializer.client/scinitializer.client.iml" filepath="$PROJECT_DIR$/scinitializer/scinitializer.client/scinitializer.client.iml" />
       <module fileurl="file://$PROJECT_DIR$/scinitializer/scinitializer.core/scinitializer.core.iml" filepath="$PROJECT_DIR$/scinitializer/scinitializer.core/scinitializer.core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/scinitializer/scinitializer.search.cloud/scinitializer.search.cloud.iml" filepath="$PROJECT_DIR$/scinitializer/scinitializer.search.cloud/scinitializer.search.cloud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/scinitializer/scinitializer.search.jdbc/scinitializer.search.jdbc.iml" filepath="$PROJECT_DIR$/scinitializer/scinitializer.search.jdbc/scinitializer.search.jdbc.iml" />
       <module fileurl="file://$PROJECT_DIR$/scinitializer/scinitializer.web/scinitializer.web.iml" filepath="$PROJECT_DIR$/scinitializer/scinitializer.web/scinitializer.web.iml" />
       <module fileurl="file://$PROJECT_DIR$/study.iml" filepath="$PROJECT_DIR$/study.iml" />
     </modules>

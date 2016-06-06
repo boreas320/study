@@ -22,15 +22,37 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
+        <module name="scinitializer.client" />
         <module name="scinitializer.core" />
+        <module name="scinitializer.search.cloud" />
+        <module name="scinitializer.search.jdbc" />
         <module name="scinitializer.web" />
+        <module name="search" />
+        <module name="study.scinitializer.client" />
+        <module name="study.scinitializer.search.cloud" />
+        <module name="study.scinitializer.search.jdbc" />
+      </profile>
+      <profile default="false" name="Annotation profile for study" enabled="true">
+        <sourceOutputDir name="../search/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../search/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="scinitializer.search" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="scinitializer" target="1.8" />
+      <module name="scinitializer.client" target="1.8" />
       <module name="scinitializer.core" target="1.8" />
+      <module name="scinitializer.search" target="1.8" />
+      <module name="scinitializer.search.cloud" target="1.8" />
+      <module name="scinitializer.search.jdbc" target="1.8" />
       <module name="scinitializer.web" target="1.8" />
+      <module name="search" target="1.8" />
       <module name="study" target="1.8" />
+      <module name="study.scinitializer.client" target="1.8" />
+      <module name="study.scinitializer.search.cloud" target="1.8" />
+      <module name="study.scinitializer.search.jdbc" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

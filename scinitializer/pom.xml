@@ -10,10 +10,14 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>study.scinitializer</artifactId>
+    <name>study.scinitializer</name>
     <packaging>pom</packaging>
     <modules>
         <module>scinitializer.core</module>
         <module>scinitializer.web</module>
+        <module>scinitializer.search.cloud</module>
+        <module>scinitializer.client</module>
+        <module>scinitializer.search.jdbc</module>
     </modules>
 
 </project>

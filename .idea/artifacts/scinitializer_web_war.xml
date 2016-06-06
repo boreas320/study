@@ -1,7 +1,7 @@
 <component name="ArtifactManager">
   <artifact type="war" name="scinitializer.web:war">
     <output-path>$PROJECT_DIR$/scinitializer/scinitializer.web/target</output-path>
-    <root id="archive" name="study.scinitializer.war">
+    <root id="archive" name="study.scinitializer.web.war">
       <element id="artifact" artifact-name="scinitializer.web:war exploded" />
     </root>
   </artifact>
