@@ -9,6 +9,27 @@
 <html>
 <head>
     <title>study.scinitializer</title>
+    <script type="text/javascript">
+
+        function test() {
+            var ret;
+            var xmlHttpRequest =
+                    new XMLHttpRequest();
+            xmlHttpRequest.onreadystatechange=function () {
+                if (xmlHttpRequest.readyState == 4 && xmlHttpRequest.status == 200) {
+                    ret = xmlHttpRequest.responseText;
+                }
+            };
+            xmlHttpRequest.open("GET", "/ajax", false);
+            xmlHttpRequest.send();
+            return ret;
+        }
+
+     window.onload=function () {
+         alert(test());
+     }
+
+    </script>
 </head>
 <body>
 Hello Word study.scinitializer

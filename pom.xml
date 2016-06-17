@@ -10,6 +10,7 @@
     <name>study</name>
     <modules>
         <module>scinitializer</module>
+        <module>design</module>
     </modules>
     <packaging>pom</packaging>
     <dependencies>

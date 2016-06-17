@@ -2,6 +2,7 @@ package org.boreas.study.scinitializer.core.config;
 
 
 import org.boreas.study.scinitializer.core.filter.SecondFilter;
+import org.boreas.study.scinitializer.core.servlet.AjaxServlet;
 import org.boreas.study.scinitializer.core.servlet.HelloServlet;
 
 import javax.servlet.*;
@@ -18,5 +19,11 @@ public class StudyServletContainerInitializer implements ServletContainerInitial
         helloServlet.addMapping("/hello", "/study");
         FilterRegistration.Dynamic secondFilter = ctx.addFilter("secondFilter", new SecondFilter());
         secondFilter.addMappingForUrlPatterns(EnumSet.allOf(DispatcherType.class), true, "/study", "/hello");
+
+
+        ServletRegistration.Dynamic ajaxServlet = ctx.addServlet("ajaxServlet", new AjaxServlet());
+        ajaxServlet.addMapping("/ajax");
+
+
     }
 }
