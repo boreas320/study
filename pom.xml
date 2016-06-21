@@ -11,6 +11,7 @@
     <modules>
         <module>scinitializer</module>
         <module>design</module>
+        <module>httpclienttest</module>
     </modules>
     <packaging>pom</packaging>
     <dependencies>

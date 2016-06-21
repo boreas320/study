@@ -23,6 +23,7 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
         <module name="design" />
+        <module name="httpclienttest" />
         <module name="scinitializer.client" />
         <module name="scinitializer.core" />
         <module name="scinitializer.search.cloud" />
@@ -42,6 +43,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="httpclienttest" target="1.8" />
       <module name="design" target="1.8" />
       <module name="scinitializer" target="1.8" />
       <module name="scinitializer.client" target="1.8" />
