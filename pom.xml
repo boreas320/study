@@ -10,6 +10,7 @@
     <name>study</name>
     <modules>
         <module>scinitializer</module>
+        <module>httpclienttest</module>
     </modules>
     <packaging>pom</packaging>
     <dependencies>

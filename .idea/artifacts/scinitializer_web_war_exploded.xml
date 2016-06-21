@@ -10,7 +10,6 @@
           <element id="archive" name="study.scinitializer.core-1.0-SNAPSHOT.jar">
             <element id="module-output" name="scinitializer.core" />
           </element>
-          <element id="library" level="project" name="Maven: org.apache.tomcat:tomcat-servlet-api:9.0.0.M6" />
         </element>
       </element>
       <element id="directory" name="META-INF">

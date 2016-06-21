@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/httpclienttest/httpclienttest.iml" filepath="$PROJECT_DIR$/httpclienttest/httpclienttest.iml" />
       <module fileurl="file://$PROJECT_DIR$/scinitializer/scinitializer.iml" filepath="$PROJECT_DIR$/scinitializer/scinitializer.iml" />
       <module fileurl="file://$PROJECT_DIR$/scinitializer/scinitializer.client/scinitializer.client.iml" filepath="$PROJECT_DIR$/scinitializer/scinitializer.client/scinitializer.client.iml" />
       <module fileurl="file://$PROJECT_DIR$/scinitializer/scinitializer.core/scinitializer.core.iml" filepath="$PROJECT_DIR$/scinitializer/scinitializer.core/scinitializer.core.iml" />
