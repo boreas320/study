@@ -4,7 +4,8 @@
     <entry_points version="2.0" />
   </component>
   <component name="FrameworkDetectionExcludesConfiguration">
-    <file type="web" url="file://$PROJECT_DIR$/httpclienttest" />
+    <file type="web" url="file://$PROJECT_DIR$/acegi" />
+    <file type="web" url="file://$PROJECT_DIR$/multipletest" />
     <file type="web" url="file://$PROJECT_DIR$/scinitializer/scinitializer.web" />
   </component>
   <component name="IdProvider" IDEtalkID="6D939E650C544B0FF6B03FD316CF19CF" />

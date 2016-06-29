@@ -22,8 +22,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
+        <module name="acegi" />
         <module name="design" />
         <module name="httpclienttest" />
+        <module name="multipletest" />
+        <module name="mutipletest" />
         <module name="scinitializer.client" />
         <module name="scinitializer.core" />
         <module name="scinitializer.search.cloud" />
@@ -43,8 +46,11 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="httpclienttest" target="1.8" />
+      <module name="acegi" target="1.8" />
       <module name="design" target="1.8" />
+      <module name="httpclienttest" target="1.8" />
+      <module name="multipletest" target="1.8" />
+      <module name="mutipletest" target="1.8" />
       <module name="scinitializer" target="1.8" />
       <module name="scinitializer.client" target="1.8" />
       <module name="scinitializer.core" target="1.8" />

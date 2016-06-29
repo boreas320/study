@@ -4,13 +4,13 @@
          xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
 http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
          id="scinitializer" version="3.0">
-    <display-name>Archetype Created Web Application</display-name>
-    <servlet-mapping>
-        <servlet-name>IndexServlet</servlet-name>
+    <display-name>ServletContextInitializer Demo</display-name>
+    <filter>
+        <filter-name>firstFilter</filter-name>
+        <filter-class>org.boreas.study.scinitializer.web.filter.FirstFilter</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>firstFilter</filter-name>
         <url-pattern>/*</url-pattern>
-    </servlet-mapping>
-    <servlet>
-        <servlet-name>IndexServlet</servlet-name>
-        <servlet-class>org.boreas.study.httpclienttest.IndexServlet</servlet-class>
-    </servlet>
+    </filter-mapping>
 </web-app>

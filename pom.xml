@@ -11,7 +11,8 @@
     <modules>
         <module>scinitializer</module>
         <module>design</module>
-        <module>httpclienttest</module>
+        <module>multipletest</module>
+        <module>acegi</module>
     </modules>
     <packaging>pom</packaging>
     <dependencies>
